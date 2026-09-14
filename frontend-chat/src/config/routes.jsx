@@ -7,14 +7,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<App />} />
 
-      <Route
-        path="/chat"
-        element={
-          <h1 className="text-3xl font-bold text-white">
-            {<ChatPage />}
-          </h1>
-        }
-      />
+      <Route path="/chat" element={<ChatPage />} />
 
       <Route
         path="/about"
